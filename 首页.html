@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="首页.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<!-- 顶部 -->
+	<div class="search">
+		<div class="empty"></div>
+		<div class="logo"><img src="img/首页/logo.jpg"></div>
+		<div class="sousuo">
+			<div id="border-left"></div>
+			<input type="text" value="美味生鲜   尽在唯美"
+				onblur="if(this.value==''){
+					this.value='美味生鲜   尽在唯美';
+					}
+					this.style.color='#ccc';" 
+				onfocus="if(this.value=='美味生鲜   尽在唯美'){
+					this.value='';
+					}
+					this.style.color='#000';
+					" 
+			>
+			<div id="border-right"></div>
+			<div class="fdj"><img src="img/首页/sousuo.jpg"></div>		
+		</div>
+		<span class="sousuo_text">搜索</span>
+	</div>
+	<!-- 轮播 -->
+	<div class="bannrbox">
+		<div class="bannrimg">
+			<ul class="bannrul">
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+				<li><img src="img/首页/banner.jpg"></li>
+			</ul>
+		</div>
+		<div class="bannrbtn">
+			<span style="margin-left: 0;"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- 按钮部分 -->
+    <div class="btbox">
+    	<div style="width: 6.4rem;height: 0.24rem;"></div>
+		<div class="btbox_btn" style="margin-left: 0.49rem;">
+			<div class="btbox_img"><img src="img/首页/热销排行.png"></div>
+			<p>热销排行</p>
+		</div>
+		<div class="btbox_btn">
+			<div class="btbox_img"><img src="img/首页/我的分销.png"></div>
+			<p>我的分销</p>
+		</div>
+		<div class="btbox_btn">
+			<a href="水果.html"><div class="btbox_img"><img src="img/首页/唯美礼品.png"></a></div>
+			<p>唯美礼品</p>
+		</div>
+		<div class="btbox_btn">
+			<div class="btbox_img"><img src="img/首页/我的订单.png"></div>
+			<p>我的订单</p>
+		</div>
+	</div>
+	<div style="width: 6.4rem;height: 0.14rem;background: #eff2ec;"></div>
+	<!-- 水果 -->
+	<div class="biaoqian"><img src="img/首页/水果专区.jpg"></div>
+	<div class="bigbox">
+		<div class="shuiguo1"><img src="img/首页/苹果.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/橙子.jpg"></div>
+		<div class="shuiguo3"><img src="img/首页/猕猴桃.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/牛油果.jpg"></div>
+	</div>
+	<div class="biaoqian"><img src="img/首页/蔬菜专区.jpg"></div>
+	<div class="bigbox">
+		<div class="shuiguo1"><img src="img/首页/西红柿.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/茄子.jpg"></div>
+		<div class="shuiguo3"><img src="img/首页/冬笋.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/土豆.jpg"></div>
+	</div>
+	<div class="biaoqian"><img src="img/首页/水产专区.jpg"></div>
+	<div class="bigbox">
+		<div class="shuiguo1"><img src="img/首页/螃蟹.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/鲈鱼.jpg"></div>
+		<div class="shuiguo3"><img src="img/首页/鲳鱼.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/鲍鱼.jpg"></div>
+	</div>
+	<div class="biaoqian"><img src="img/首页/休闲食品.jpg"></div>
+	<div class="bigbox" style="height: 7.4rem;">
+		<div class="shuiguo1"><img src="img/首页/花生.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/夏威夷果.jpg"></div>
+		<div class="shuiguo3"><img src="img/首页/紫薯.jpg"></div>
+		<div class="shuiguo2"><img src="img/首页/松子.jpg"></div>
+	</div>
+	<!-- 底部 -->
+	<div class="btm">
+		<div class="gouwuche">
+			<a href="我的购物车.html"><img src="img/首页/购物车.png"></a>
+		</div>
+		<a href="首页.html"><div class="btm_btn" style="margin-left:0.53rem;">
+			<div class="btm_img"><img src="img/首页/底部按钮-首页.png"></div>
+			<p>首页</p>	
+		</div></a>
+		<a href="分类.html"><div class="btm_btn" style="margin-left:0.82rem;">
+			<div class="btm_img"><img src="img/首页/底部按钮-分类.png"></div>
+			<p>分类</p>	
+		</div></a>
+		<div class="btm_logo">
+		<a href="#"><img src="img/首页/底部按钮.png"></a>
+		</div>
+		<a href="我的唯美.html"><div class="btm_weimei">
+			<div class="btm_img2"><img src="img/首页/底部按钮-我的唯美.png"></div>
+			<p>我的唯美</p>
+		</div></a>
+	</div>
+<script>
+        var btn = $(".bannrbtn>span");
+		$(btn[0]).addClass("current");
+		btn.click(function(){
+			$(this).addClass("current").siblings().removeClass("current");
+			var num = $(this).index();
+			$(".bannrul").animate({left:-num * 6.4 + "rem"},500);
+		});
+		var t = setInterval(move,2000);
+		function move(){
+			var num;		
+			btn.each(function(){
+				if($(this).hasClass("current")){			
+					num = $(this).index()+1;
+					$(".bannrul").animate({left:-num * 6.4 + "rem"},500);
+
+					if(num == btn.length){
+						$(".bannrul").animate({left:"0rem"},0);
+						num=0;
+					}
+				}
+			});
+			$(btn[num]).addClass("current").siblings().removeClass("current");
+		}
+		$(".bannrbox").mouseover(function(){
+			clearInterval(t);
+		});
+		$(".bannrbox").mouseout(function(){
+			t = setInterval(move,2000);
+		});
+</script>
+
+</body>
+</html>

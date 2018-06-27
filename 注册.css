@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei";
+	outline:none;
+}
+.dtop{
+	width: 6.4rem;
+	height: 0.97rem;
+}
+.dtop_img{
+	width: 0.18rem;
+	height: 0.3rem;
+	margin-left: 0.36rem;
+	margin-top: 0.4rem;
+	float: left;
+}
+.dtop_img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.ptop{
+	width: 1.08rem;
+	height: 0.31rem;
+	font-size: 0.26rem;
+	color:#88d549;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.35rem;
+}
+.gozc{
+	width: 0.84rem;
+	height: 0.31rem;
+	float: right;
+	margin-right: 0.35rem;
+	margin-top: 0.35rem;
+}
+.gozc a{
+	font-size: 0.26rem;
+	color: #afafaf;
+	float: right;
+	text-decoration: none;
+}
+.denglu{
+	width: 6.4rem;
+	height: 10.4rem;
+	background: #eff2ec;
+}
+.login{
+	width: 5.47rem;
+	height: 4.54rem;
+	background: #fff;
+	margin-left: 0.46rem;
+	border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+.uname img{
+	width: 0.3rem;
+	height: 0.33rem;
+	float: left;
+	margin-left: 0.38rem;
+	margin-top: 0.1rem;
+	margin-right: 0.13rem;
+}
+.login input{
+	border-left-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	float: left;
+	height: 0.46rem;
+	width: 4.20rem;
+	font-size: 0.22rem;
+	color:#adadad;
+	text-indent: 0.12rem;
+}
+input::-webkit-input-placeholder{
+    color:#adadad;
+}
+input::-moz-placeholder{   
+    color:#adadad;
+}
+input:-moz-placeholder{    
+    color:#adadad;
+}
+input:-ms-input-placeholder{ 
+    color:#adadad;
+}
+.yzm{
+	width: 1.8rem;
+	height: 0.46rem;
+}
+.huoqu{
+	font-size: 0.22rem;
+	position: absolute;
+	top: 0.9rem;
+	right: 0.5rem;
+}
+
+.btn{
+	width: 5.47rem;
+	height: 0.7rem;
+	background: #88d549;
+	font-size: 0.29rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 0.46rem;
+	border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+	border:0;
+	margin-top: 2.5rem;
+}
+.ppx{
+	width: 4.5rem;
+	height: 0.5rem;
+	margin-left: 0.34rem;
+	font-size: 0.22rem;
+	color:#666666;
+}
+.radio1{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	border: 0.01rem solid #666;
+	float: left;
+	margin-right: 0.2rem;
+}
+.radio2:checked ~.radio1{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.radio2{
+	display: none;
+}

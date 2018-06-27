@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="我的购物车.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<div class="dtop">
+		<div class="dtop_img">
+			<a href="首页.html"><img src="img/列表/左箭头.jpg"></a>
+		</div>
+		<div class="ptop">我的购物车</div>
+	</div>
+	<div class="commodity_box">
+			<div class="radio3"></div>
+			<div class="commodity_img">
+				<img src="img/我的订单橘子.jpg">
+			</div>
+			<p class="commodity_p">正宗江西赣南脐橙 新鲜水果橙子 甜嫩多汁 5斤包邮</p>
+			<div class="commodity_p2"></div> 
+			
+			<div class="commodity_p3">1</div>
+			<div class="commodity_p4"></div>
+			<div class="commodity_p5">¥ <span id="unit">29.90</span></div>
+	</div>
+	<div style="width: 6.4rem;height: 7.86rem;background: #eff2ec;"></div>
+	<div class="btm">
+		<div class="btm_left">应付金额：<span>￥</span><span id="Total">29.90</span></div>
+		<div class="btm_right">
+			<div class="lll">
+				<div class="btm_img"><img src="img/小汽车.jpg"></div>
+				<p>运费:20<p>
+			</div>
+			<a href="提交订单.html"><p class="btm_p">去结算</p></a>
+		</div>
+	</div>
+</body>
+<script>
+	var jian = $(".commodity_p2");
+		var jia = $(".commodity_p4");
+		var num = $(".commodity_p3").html();
+		var total = $("#Total");
+		var unit = $("#unit").html();
+		jia.click(function(){
+			num++;
+			$(".commodity_p3").html(num);
+			var i = num*unit;	
+			total.html(i.toFixed(2));
+		});
+
+		jian.click(function(){
+			if(num>0){
+				num--;
+				$(".commodity_p3").html(num);
+				var i = num*unit;	
+				total.html(i.toFixed(2));
+			}
+		});
+	// var jian=document.getElementsByClassName('commodity_p2')[0];
+	// var jia=document.getElementsByClassName('commodity_p4')[0];
+	// var num=document.getElementsByClassName('commodity_p3')[0];
+	// var total=document.getElementById('Total');
+	// var unit=document.getElementById('unit').innerHTML;
+	// jia.onclick=function(){
+	// 	num.innerHTML++;
+	// 	var i = num.innerHTML*unit;
+	// 	total.innerHTML = i.toFixed(2);
+	// }
+	// jian.onclick=function(){
+	// 	if (num.innerHTML>0) {
+	// 		num.innerHTML--;
+	// 		var i = num.innerHTML*unit;
+	// 		total.innerHTML = i.toFixed(2);		
+	// 	}
+	// }
+
+	
+	
+
+
+
+</script>
+</html>

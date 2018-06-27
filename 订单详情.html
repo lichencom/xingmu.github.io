@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="订单详情.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<div class="dtop">
+		<div class="dtop_img">
+			<img src="img/列表/左箭头.jpg">
+		</div>
+		<div class="ptop">订单信息</div>
+	</div>
+	<div class="xinxi">订单信息</div>
+	<div class="list">订单编号
+		<div class="list_content"></div>
+	</div>
+	<div class="list">订单时间
+		<div class="list_content"></div>
+	</div>
+	<div class="list2">
+		<div class="list2_left">
+			<p>收货信息</p>
+			<p>碧江</p>
+			<p>浙江省杭州市拱墅区祥园路120号</p>
+		</div>
+		<div class="list2_right">13757686880</div>
+	</div>
+	<div class="list">配送方式
+		<span style="margin-left: 0.2rem;"></span>
+	</div>
+	<div class="list">支付方式
+		<span style="margin-left: 0.2rem;"></span>
+	</div>
+	<div class="list">订单状态
+		<span style="margin-left: 0.2rem;"></span>
+	</div>
+	<div class="xinxi">价格清单</div>
+	<div class="list">商品总价：
+		<div class="list_jiage"></div>
+	</div>
+	<div class="list">运费金额：
+		<div class="list_jiage"></div>
+	</div>
+	<div class="list" style="border: none;">合计
+		<div class="list_jiage"></div>
+	</div>
+	<div class="xinxi">商品清单<span style="font-weight: normal;">（共1件）</span></div>
+	<div class="shoplist">
+		<div class="shop_img"><img src="img/我的订单橘子.jpg"></div>
+		<div class="shop_p">正宗江西赣南脐橙 新鲜水果橙子 甜嫩多汁 5斤包邮</div>
+		<div class="shop_p2">¥ 29.90</div>
+		<div class="shop_p3">×1</div>
+	</div>
+	<div class="xinxi">发票</div>
+	<div class="list3">
+		<p style="margin-top: 0.28rem;">很抱歉，近期我们暂时不能提供发票。</p>
+		<p>请联系400-888-7888申请，我们将尽快为您补寄。</p>
+	</div>
+	<div class="xinxi" style="height: 0.25rem;"></div>
+	<div class="btm">
+		<div class="btm_left">商品总价：￥87.00</div>
+		<div class="btm_right">去支付</div>
+	</div>
+</body>
+	<script>
+		$(function(){
+			$.ajax({
+				url:"http://192.168.1.177/GIndent/getGIndent/1",
+				type:"POST",
+				contentType:'application/x-www-form-urlencoded; charset=UTF-8',
+				success:function(result){
+					$('.list_content').eq(0).html(result.userInfo.GIndentById.indentId);
+					$('.list_content').eq(1).html(result.userInfo.GIndentById.indentDate);
+					$('.list>span').eq(0).html(result.userInfo.GIndentById.delivery);
+					$('.list>span').eq(1).html(result.userInfo.GIndentById.payment);
+					$('.list>span').eq(2).html(result.userInfo.GIndentById.indentState);
+					$('.list_jiage').eq(0).html("￥"+result.userInfo.GIndentById.goodsPrice);
+					$('.list_jiage').eq(1).html("+￥"+result.userInfo.GIndentById.goodsFreight);
+					$('.list_jiage').eq(2).html("￥"+result.userInfo.GIndentById.goodsTotal);
+				}
+			});
+		});
+	</script>
+</html>

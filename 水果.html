@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="水果.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<!-- 顶部 -->
+	<div class="search">
+		<div class="empty"></div>
+		<div class="logo"><a href="分类.html"><img src="img/列表/左箭头.jpg"></a></div>
+		<div class="sousuo">
+			<div id="border-left"></div>
+			<input type="text" id="input1" value="水果"
+				onblur="if(this.value==''){
+					this.value='水果';
+					}
+					this.style.color='#ccc';" 
+				onfocus="if(this.value=='水果'){
+					this.value='';
+					}
+					this.style.color='#000';
+					" 
+			>
+			<div id="border-right"></div>
+			<div class="fdj"><img src="img/列表/绿放大镜.jpg"></div>		
+		</div>
+		<div class="sousuo_text"><img src="img/列表/列表.jpg"></div>
+	</div>
+	<div class="pbox">
+		<div class="paixu"><p>销量&nbsp;&nbsp;&nbsp;<span class="jt">&#9650;</span></p></div>
+		<div class="paixu"><p>价格&nbsp;&nbsp;&nbsp;<span class="jt">&#9650;</span></p></div>
+		<div class="paixu"><p>时间&nbsp;&nbsp;&nbsp;<span class="jt">&#9650;</span></p></div>
+	</div>
+	<div class="btbox">
+		<div class="btn" style="width: 0.9rem;margin-left: 0.08rem;">全部</div>
+		<div class="btn">水果组合</div>
+		<div class="btn">国产水果</div>
+		<div class="btn">进口水果</div>
+		<div class="btn">速冻水果</div>
+	</div>
+	<div class="list">
+		<a href="详情页.html" style="text-decoration: none;"><div class="listbox">
+			<div class="listbox_img"><img src="img/列表/苹果.jpg"></div>
+			<div class="listbox_p1"></div>
+			<p class="listbox_p2"><del></del></p>
+			<p class="listbox_p3"></p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div></a>
+		<div class="listbox">
+			<div class="listbox_img"><img src="img/列表/草莓.jpg"></div>
+			<div class="listbox_p1">新鲜草莓水果 杭州水果店同城草莓批发</div>
+			<p class="listbox_p2"><del>￥68.00</del></p>
+			<p class="listbox_p3">￥68.00</p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div>
+		<div class="listbox">
+			<div class="listbox_img"><img src="img/列表/柚子.jpg"></div>
+			<div class="listbox_p1">一品优平和柚琯溪红肉蜜柚红心柚子新鲜水果</div>
+			<p class="listbox_p2"><del>￥68.00</del></p>
+			<p class="listbox_p3">￥68.00</p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div>
+		<div class="listbox">
+			<div class="listbox_img"><img src="img/列表/香梨.jpg"></div>
+			<div class="listbox_p1">新疆特产香梨 新鲜水果正宗库尔勒香梨5斤整箱</div>
+			<p class="listbox_p2"><del>￥68.00</del></p>
+			<p class="listbox_p3">￥68.00</p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div>
+		<div class="listbox">
+			<div class="listbox_img"><img src="img/列表/红薯.jpg"></div>
+			<div class="listbox_p1">10斤正宗山东特产烟台栖霞红富士红薯</div>
+			<p class="listbox_p2"><del>￥68.00</del></p>
+			<p class="listbox_p3">￥68.00</p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div>
+		<div class="listbox">
+			<div class="listbox_img"><img src="img/列表/无花果.jpg"></div>
+			<div class="listbox_p1">无花果新鲜波姬红无花果应季时令水果</div>
+			<p class="listbox_p2"><del>￥68.00</del></p>
+			<p class="listbox_p3">￥68.00</p>
+			<div class="listbox_img2"><a href="#"><img src="img/列表/购物车.jpg"></a></div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="btm">
+		<div class="gouwuche">
+			<a href="我的购物车.html"><img src="img/首页/购物车.png"></a>
+		</div>
+		<a href="首页.html"><div class="btm_btn" style="margin-left:0.53rem;">
+			<div class="btm_img"><img src="img/首页/底部按钮-首页.png"></div>
+			<p>首页</p>	
+		</div></a>
+		<a href="分类.html"><div class="btm_btn" style="margin-left:0.82rem;">
+			<div class="btm_img"><img src="img/首页/底部按钮-分类.png"></div>
+			<p>分类</p>	
+		</div></a>
+		<div class="btm_logo">
+		<a href="#"><img src="img/首页/底部按钮.png"></a>
+		</div>
+		<a href="我的唯美.html"><div class="btm_weimei">
+			<div class="btm_img2"><img src="img/首页/底部按钮-我的唯美.png"></div>
+			<p>我的唯美</p>
+		</div></a>
+	</div>
+	<script>
+		$.ajax({
+			url:"http://192.168.1.177/Goods/getGoods/1",
+			type:"POST",
+			contentType:'application/x-www-form-urlencoded; charset=UTF-8',
+			success:function(result){
+				$('.listbox_p1').eq(0).html(result.userInfo.GoodsById.title);
+				$('.listbox_p2>del').html("￥"+result.userInfo.GoodsById.oPrices);
+				$('.listbox_p3').eq(0).html("￥"+result.userInfo.GoodsById.pPrices);
+			}
+		});
+
+		var btn = $(".pbox>.paixu");
+		var jt = $(".jt");
+		$(btn[0]).addClass("current");
+		$(jt[0]).html("&#9660;");
+		btn.click(function(){
+			$(this).addClass("current").siblings().removeClass("current");
+			var num = $(this).index();
+			$(jt[num]).html("&#9660;").parent().parent().siblings().find(".jt").html("&#9650;");
+		});
+
+		var btn2 = $(".btbox>.btn");
+		$(btn2[0]).addClass("btcolor");
+		btn2.click(function(){
+			$(this).addClass("btcolor").siblings().removeClass("btcolor");
+		});
+		
+	</script>
+</body>
+</html>

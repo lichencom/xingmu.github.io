@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei";
+}
+.dtop{
+	width: 6.4rem;
+	height: 0.97rem;
+	border-bottom:1px solid #c4c4c4;
+}
+.dtop_img{
+	width: 0.18rem;
+	height: 0.3rem;
+	margin-left: 0.36rem;
+}
+.dtop_img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}/* 轮播 css */
+.bannrbox{
+	width: 6.4rem;
+	height: 6rem;
+	position:relative;
+	overflow: hidden;
+}
+.bannrimg{
+	width: 6.4rem;
+	height: 5.18rem;
+	position: relative;
+}
+.bannrul li{
+	width: 6.4rem;
+	height: 5.18rem;
+	float: left;
+}
+.bannrul li img{
+	width: 100%;
+	height: 100%;
+}
+/* 轮播按钮 */
+.bannrbtn{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: relative;
+	bottom: -0.5rem;
+	left: 2.6rem;
+}
+.bannrbtn span{
+	width: 0.15rem;
+	height: 0.15rem;
+	margin-left: 0.24rem;
+	background:#000;
+  	opacity: 0.3;
+	float: left;
+	border-radius: 100%;
+	cursor: pointer;  
+}
+.bannrul{
+	width: 25.6rem;
+	position: absolute;
+}
+.bannrbtn span.current{
+	background: #88d549;
+}
+.lvxin{
+	width: 0.38rem;
+	height: 0.38rem;
+	float: right;
+	margin-top: 0.26rem;
+	margin-right: 0.32rem;
+}
+.lvxin img{
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+.p1{
+	font-size: 0.22rem;
+	text-indent: 0.34rem;
+	margin-top: 0.6rem;
+	color: #595f53;
+}
+.p2{
+	width: 2.7rem;
+	height: 0.3rem;
+	color: #ff0007;
+	font-size: 0.24rem;
+	margin-left: 0.34rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+.p3{
+	font-size: 0.18rem;
+	color: #ddd;
+	float: left;
+	margin-top: 0.17rem;
+}
+.pp{
+	width: 6.4rem;
+	height: 0.3rem;
+}
+.ppv{
+	width: 6.4rem;
+	height: 0.8rem;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	margin-top: 0.35rem;
+}
+.ppv p{
+	font-size: 0.18rem;
+	color:#595f53;
+	text-indent: 0.34rem;
+	margin-top: 0.3rem;
+}
+.ppm{
+	width: 6.4rem;
+	height: 1.3rem;
+}
+.ppm p{
+	font-size: 0.18rem;
+	color:#595f53;
+	text-indent: 0.34rem;
+	margin-top: 0.3rem;
+}
+.ppm button{
+	width: 1.2rem;
+	height: 0.42rem;
+	border-radius:  0.1rem 0.1rem 0.1rem 0.1rem;
+	border:1px solid #88d549; 
+	background: #fff;
+	font-size: 0.18rem;
+	float: left;
+	margin-left: 1.12rem;
+	margin-top: 0.1rem;
+	color: #595f53;
+}
+.ppm button.ymd{
+	background: #88d549;
+	color: #fff;
+}
+.shangla{
+	width: 6.4rem;
+	height: 2.5rem;
+	background: #eff2ec;
+}
+.shangla p{
+	color: #595f53;
+	font-size: 0.18rem;
+	text-align: center;
+}
+/* 底部 */
+.btm{
+	width: 6.4rem;
+	height: 0.98rem;
+	border-top: 1px solid #88d549;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.gouwuche{
+	width: 1.13rem;
+	height: 1.12rem;
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.23rem;
+}
+.gouwuche a img{
+	width: 100%;
+	height: 100%;
+}
+.bjian{
+	width: 0.25rem;
+	height: 0.25rem;
+	float: left;
+	margin-top: 0.38rem;
+	margin-left: 0.35rem;
+	margin-right: 0.46rem;
+}
+.bjia{
+	width: 0.25rem;
+	height: 0.25rem;
+	float: left;
+	margin-top: 0.38rem;
+	margin-left: 0.46rem;
+}
+.bjian img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.bjia img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.b1{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #595f53;
+	border: 0.01rem solid #fd774c;
+	font-size: 0.24rem;
+	float: left;
+	text-align: center;
+	line-height: 0.6rem;
+	border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+	margin-top: 0.17rem;
+}
+.b2{
+	width: 1.91rem;
+	height: 0.62rem;
+	font-size: 0.24rem;
+	color: #fff;
+	background: #fd774c;
+	text-align: center;
+	line-height: 0.62rem;
+	border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+	margin-left: 0.46rem;
+	border: 0;
+	float: left;
+	margin-top: 0.17rem;
+	cursor: pointer;
+}

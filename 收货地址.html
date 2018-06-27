@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="收货地址.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<div class="dtop">
+		<a href="地址管理.html"><div class="dtop_img">
+			<img src="img/列表/左箭头.jpg">
+		</div></a>
+		<div class="ptop">订单信息</div>
+		<div class="rtop">新增地址</div>
+	</div>
+	<div class="content">
+		<div class="ding"></div>
+		<div class="address">
+			<div class="default">
+				<label>
+					<input type="checkbox" value="" class="radio">
+					<div class="radio1"><div class="radio2"></div></div>
+					<span class="radio_p">默认地址(设为默认地址)</span>
+				</label>
+			</div>
+			<!-- <span style="color: #999;font-size: 0.18rem;"> （最多4个字）</span> -->
+			<div class="addtagg">
+				地址标注： <input type="text" value="（最多4个字）"
+				onblur="if(this.value==''){
+					this.value='（最多4个字）';this.style.color='#999';
+					}
+					" 
+				onfocus="if(this.value=='（最多4个字）'){
+					this.value='';this.style.color='#000';
+					}
+					
+				" id="username" style="color:#999;">
+			</div>
+			<div class="addtagg">
+				所在区域：<input type="text" name="">
+				<div class="addimg"><img src="img/右箭头.jpg"></div>
+			</div>
+			<div class="addtagg">
+				详细地址：<input type="text" name="">
+			</div>
+			<div class="addtagg">
+				收货人：<input type="text" name="">
+			</div>
+			<div class="addtagg" style="border:none">
+				联系电话：<input type="text" name="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

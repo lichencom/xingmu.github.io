@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="登录.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<div class="dtop">
+		<div style="width: 6.4rem;height: 0.4rem;"></div>
+		<div class="dtop_img">
+			<img src="img/列表/左箭头.jpg">
+		</div>
+		<div class="gozc"><a href="注册.html" >去注册</a></div>
+	</div>
+
+	<div class="denglu">
+		<div style="width: 6.4rem;height: 0.47rem;"></div>
+		<div class="login">
+			<div style="width: 5rem;height: 0.47rem;"></div>
+			<div class="uname">
+				<img src="img/name.jpg">
+				<input type="text" value="手机号/邮箱/用户名"
+				onblur="if(this.value==''){
+					this.value='手机号/邮箱/用户名';
+					}
+					this.style.color='#adadad';" 
+				onfocus="if(this.value=='手机号/邮箱/用户名'){
+					this.value='';
+					}
+					this.style.color='#000';
+				" id="username">
+			</div>
+			<div style="width: 5rem;height: 0.3rem;float: left;"></div>
+			<div class="uname">
+				<img src="img/password.jpg">
+				<input type="password" value="" placeholder="密码" 
+				onblur="if(this.placeholder==''){
+					this.placeholder='密码';
+					}
+					this.style.color='#adadad';" 
+				onfocus="if(this.placeholder=='密码'){
+					this.placeholder='';		
+					}
+					this.style.color='#000';
+				" id="password">
+			</div>
+		</div>
+		<div style="width: 6.4rem;height: 0.23rem;"></div>
+		<p class="p1">忘记密码</p>
+		<button class="btn">登录</button>
+	</div>
+</body>
+</html>

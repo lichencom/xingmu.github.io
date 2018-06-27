@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="提交订单.css">
+	<script src="jquery-1.11.3.js"></script> 
+	<script src="rem.js"></script>
+</head>
+<body>
+	<div class="dtop">
+		<div class="dtop_img">
+			<img src="img/列表/左箭头.jpg">
+		</div>
+		<div class="ptop">订单信息</div>
+		<div class="gozc">提交订单</div>
+	</div>
+	<div class="content">
+		<div style="height: 0.15rem;"></div>
+		<div class="readdress">
+			<div class="caitiao"><img src="img/彩条.jpg"></div>
+			<div class="address_p">
+				<p class="address_p1">收货地址</p>
+				<p class="address_p2" style="margin-top: 0.22rem;">碧江</p>
+				<p class="address_p2" style="margin-top: 0.18rem;">浙江省杭州市滨江区</p>
+				<p class="address_p2">星光大道525号</p>	
+			</div>
+			<div class="address_img"><img src="img/右箭头.jpg"></div>
+			<div class="address_p3">1367769999</div>			
+		</div>
+		<div style="height: 0.13rem;"></div>
+		<div class="mode">
+			<p class="mode_p1">配送方式</p>
+			<div class="mode_p2" style="margin-left: 0.28rem;">选择</div>
+			<div class="mode_p2">名称</div>
+			<div class="mode_p2" style="margin-left: 2.18rem;margin-right: 1rem;">费用</div>
+			<div class="mode_radio">
+				<label>
+					<input type="radio" value="" class="ra1" name="radio1">
+					<div class="radio1"><div class="radio2"></div></div>
+					<span class="radio_p">快递公司</span>
+					<span class="radio_p" style="margin-left: 2rem;margin-right: 1rem;">5.00</span>
+				</label>
+				<label style="margin-top: 0.1rem;">
+					<input type="radio" value="" class="ra2" name="radio1">
+					<div class="radio3"><div class="radio4"></div></div>
+					<span class="radio_p2">邮政快递公司</span>
+					<span class="radio_p2" style="margin-left: 1.55rem;">8.00</span>
+				</label>
+			</div>
+			<div class="mode_radio2">
+				<span style="margin-left: 0.2rem;">指定送货时间：</span>
+				<label>
+					<input type="radio" value="" class="ra3" name="radio2">
+					<div class="radio5"><div class="radio6"></div></div>
+					<span class="radio_p3">任意</span>
+				</label>
+				<label>
+					<input type="radio" value="" class="ra4" name="radio2">
+					<div class="radio7"><div class="radio8"></div></div>
+					<span class="radio_p3">周一到周五</span>
+				</label>
+				<label>
+					<input type="radio" value="" class="ra5" name="radio2">
+					<div class="radio9"><div class="radio10"></div></div>
+					<span class="radio_p3">周末</span>
+				</label>
+			</div>
+		</div>
+		<div style="height: 0.2rem;"></div>
+		<div class="payment">
+			<div class="payment_p1">支付方式</div>
+			<div class="payment_tiao"></div>
+			<div class="payment_mode_wx">
+				<label>
+					<div class="payment_img"><img src="img/微信.png"></div>
+					<span class="payment_p2">微信支付</span>
+					<input type="radio" name="radio3" class="pay">
+					<div class="pay2"></div>
+				</label>
+			</div>
+			<div class="payment_tiao"></div>
+			<div class="payment_mode_wx">
+				<label>
+					<div class="payment_img"><img src="img/线下.png"></div>
+					<span class="payment_p2">线下结算点支付</span>
+					<input type="radio" name="radio3" class="pay1">
+					<div class="pay3"></div>
+				</label>
+			</div>
+			<div class="payment_tiao"></div>
+			<div class="outer">
+				<div class="outer2">	
+				<select name="province" id="province">
+					<option value="请选择省">请选择省</option>
+				</select>
+				</div>
+				<div class="outer2">	
+				<select name="city" id="city">
+					<option value="请选择区">请选择市</option>
+				</select>
+				</div>
+				<div class="outer2">	
+				<select name="town" id="town">
+					<option value="请选择区">请选择区</option>
+				</select>
+				</div>
+			</div>
+			<div class="payment_add">
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio">
+						<div class="payimg"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio2">
+						<div class="payimg2"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio3">
+						<div class="payimg3"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio4">
+						<div class="payimg4"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio5">
+						<div class="payimg5"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio6">
+						<div class="payimg6"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio7">
+						<div class="payimg7"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+				<div class="payment_address">
+					<label>
+						<input type="radio" name="payimg" class="pay_radio8">
+						<div class="payimg8"></div>
+						<span style="margin-right: 0.6rem;">古墩路187号</span>
+						<span style="margin-right: 0.66rem;">浙江大学便利店</span>
+						<span style="margin-right: 0.23rem;">小白菜</span>
+						<span>137988989</span>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div style="height: 0.2rem;"></div>
+		<div class="inventory">
+			<div class="payment_p1">商品清单</div>
+			<div class="payment_tiao"></div>
+			<div class="payment_p1">商品清单<span style="float: right;margin-right: 0.45rem;">商品金额￥29.90</span></div>
+			<div class="payment_tiao"></div>
+			<div class="invent_p">正宗江西赣南脐橙 新鲜水果橙子<span style="margin-left: 0.7rem;margin-right: 0.83rem;">￥29.90</span><span>x1</span></div>
+			<div class="payment_tiao"></div>
+			<div class="invent_fp">
+				<label>
+					<div class="invent_p2">是否需要发票</div>
+					<input type="checkbox" name="" class="inventbox">
+					<div class="invent2"></div>
+				</label>
+				<div class="invent_btm">发票开头<input type="text" name=""></div>
+			</div>
+		</div>
+		<div style="height: 0.2rem;"></div>
+		<div class="coupon">
+			<div class="coupon_p">使用余额<span style="color: #333;">（现存<span style="color: #f54d32;">￥0.00</span>）</span></div>
+			<div class="payment_tiao"></div>
+			<div class="coupon_p">使用优惠券<span style="color: #333;">（现存<span style="color: #f54d32;">0</span>张）</span></div>
+			<div class="coupon_img" style="margin-left: 0.22rem;"><img src="img/20劵.jpg"></div>
+			<div class="coupon_img"><img src="img/50劵.jpg"></div>
+			<div class="coupon_img"><img src="img/100劵.jpg"></div>
+			<div class="coupon_img2"><img src="img/阴影.jpg"></div>
+		</div>
+		<div style="height: 0.2rem;"></div>
+		<div class="payable">
+			<div class="payable_p">应付金额<span>￥29.90</span></div>
+			<div class="payment_tiao"></div>
+			<div class="payable_p2">商品金额<span>￥29.90</span></div>
+			<div class="payable_p2">运费<span style="margin-right: 0.84rem;">+￥0.00</span></div>
+		</div>
+		<div style="height: 0.37rem;"></div>
+		<a href="我的订单.html" style="color: #fff;text-decoration: none;"><div class="btn">提交订单</div></a>
+	</div>
+</body>
+<script src="area.js"></script>
+<script src="select.js"></script>
+</html>

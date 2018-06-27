@@ -1,0 +1,731 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei";
+}
+.dtop{
+	width: 6.4rem;
+	height: 0.97rem;
+}
+.dtop_img{
+	width: 0.18rem;
+	height: 0.3rem;
+	margin-left: 0.36rem;
+	margin-top: 0.4rem;
+	float: left;
+}
+.dtop_img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.ptop{
+	width: 1.08rem;
+	height: 0.31rem;
+	font-size: 0.26rem;
+	color:#88d549;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.35rem;
+}
+.gozc{
+	width: 0.9rem;
+	height: 0.25rem;
+	float: right;
+	margin-right: 0.18rem;
+	margin-top: 0.4rem;
+	font-size: 0.22rem;
+	color: #88d549;
+}
+.content{
+	width: 6.4rem;
+	height: 27.75rem;
+	background: #eff2ec;
+}
+
+/* 配送地址 */
+.readdress{
+	width: 6.24rem;
+	height: 2.07rem;
+	background: #fff;
+	margin-left: 0.08rem;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+}
+.caitiao{
+	width: 0.09rem;
+	height: 1.70rem;
+	float: left;
+	margin-top: 0.17rem;
+	margin-right: 0.19rem;
+}
+.caitiao img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.address_p{
+	width: 2.4rem;
+	height: 2.07rem;
+	float: left;
+}
+.address_p1{
+	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.address_p2{
+	font-size: 0.22rem;
+	color: #949494;
+	margin-top: 0.08rem;
+}
+.address_p3{
+	width: 1.3rem;
+	height: 0.24rem;
+	font-size: 0.22rem;
+	color: #949494;
+	margin-top: 0.72rem;
+	float: right;
+}
+.address_img{
+	width: 0.16rem;
+	height: 0.26rem;
+	float: right;
+	margin-top: 0.88rem;
+	margin-right: 0.25rem;
+	margin-left: 0.44rem;
+}
+.address_img img{
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+/* 配送方式 */
+.mode{
+	width: 6.24rem;
+	height: 4.21rem;
+	margin-left: 0.08rem;
+	background: #fff;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+}
+.mode_p1{
+	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	padding-top: 0.23rem;
+	text-indent: 0.28rem;
+}
+.mode_p2{
+	width: 0.47rem;
+	height: 0.25rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #666;
+	margin-top: 0.3rem;
+	margin-left: 1.28rem;
+}
+.mode_radio{
+	width: 6.24rem;
+	height: 2.2rem;
+}
+.radio_p{
+	font-size: 0.22rem;
+	color: #949494;
+	float: left;
+	margin-top: 0.48rem;
+}
+.radio1{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 100%;
+	border: 0.03rem solid #88d549;
+	float: left;
+	cursor: pointer;
+	margin-left: 0.28rem;
+	margin-right: 1.06rem;
+	margin-top: 0.4rem;
+}
+.radio2{
+	width: 0.17rem;
+	height: 0.17rem;
+	background: #fff;
+	float: left;
+	border-radius: 100%;
+	margin-top: 0.12rem;
+	margin-left: 0.12rem;
+}
+
+.ra1:checked ~.radio1>.radio2{
+	background: #88d549;
+}
+.ra1{
+	display: none;
+}
+.radio_p2{
+	font-size: 0.22rem;
+	color: #949494;
+	float: left;
+	margin-top: 0.27rem;
+}
+label{
+	float: left;
+}
+.radio3{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 100%;
+	border: 0.03rem solid #88d549;
+	float: left;
+	cursor: pointer;
+	margin-left: 0.28rem;
+	margin-right: 1.06rem;
+	margin-top: 0.2rem;
+}
+.radio4{
+	width: 0.17rem;
+	height: 0.17rem;
+	background: #fff;
+	float: left;
+	border-radius: 100%;
+	margin-top: 0.12rem;
+	margin-left: 0.12rem;
+}
+.ra2:checked ~.radio3>.radio4{
+	background: #88d549;
+}
+.ra2{
+	display: none;
+}
+
+.mode_radio2{
+	width: 6.24rem;
+	height: 0.35rem;
+	float: left;
+	margin-top: 0.6rem;
+}
+.mode_radio2 span{
+	font-size: 0.22rem;
+	color: #949494;
+	float: left;
+}
+.radio_p3{
+	font-size: 0.22rem;
+	color: #949494;
+	float: left;
+	margin-right: 0.21rem;
+}
+.radio5{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 100%;
+	border: 0.02rem solid #c4c4c4;
+	float: left;
+	cursor: pointer;
+	margin-left: 0.15rem;
+	margin-right: 0.14rem;
+}
+.radio6{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	float: left;
+	border-radius: 100%;
+	margin-top: 0.07rem;
+	margin-left: 0.07rem;
+}
+.ra3:checked ~.radio5>.radio6{
+	background: #c4c4c4;
+}
+.ra3{
+	display: none;
+}
+.radio7{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 100%;
+	border: 0.02rem solid #c4c4c4;
+	float: left;
+	cursor: pointer;
+	margin-left: 0.15rem;
+	margin-right: 0.14rem;
+}
+.radio8{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	float: left;
+	border-radius: 100%;
+	margin-top: 0.07rem;
+	margin-left: 0.07rem;
+}
+.ra4:checked ~.radio7>.radio8{
+	background: #c4c4c4;
+}
+.ra4{
+	display: none;
+}
+.radio9{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 100%;
+	border: 0.02rem solid #c4c4c4;
+	float: left;
+	cursor: pointer;
+	margin-left: 0.15rem;
+	margin-right: 0.14rem;
+}
+.radio10{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	float: left;
+	border-radius: 100%;
+	margin-top: 0.07rem;
+	margin-left: 0.07rem;
+}
+.ra5:checked ~.radio9>.radio10{
+	background: #c4c4c4;
+}
+.ra5{
+	display: none;
+}
+
+/* 支付方式 */
+.payment{
+	width: 6.24rem;
+	height: 9.36rem;
+	background: #fff;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+	margin-left: 0.08rem;
+}
+.payment_p1{
+	width: 6.24rem;
+	height: 0.78rem;
+	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	text-indent: 0.28rem;
+	line-height: 0.78rem;
+}
+.payment_tiao{
+	width: 6.02rem;
+	height: 0.01rem;
+	border-bottom: 0.01rem solid #dedede;
+	margin:0 auto;
+}
+.payment_mode_wx{
+	width: 6.24rem;
+	height: 0.82rem;
+}
+.payment_mode_wx>label{
+	width: 6.24rem;
+	height: 0.82rem;
+}
+.payment_img{
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+	margin-top: 0.11rem;
+	margin-left: 0.29rem;
+	margin-right: 0.43rem;
+}
+.payment_img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.payment_p2{
+	font-size: 0.22rem;
+	color: #333;
+	float: left;
+	margin-top: 0.26rem;
+}
+.pay2{
+	width: 0.43rem;
+	height: 0.43rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.17rem;
+}
+.pay:checked ~.pay2{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay{
+	display: none;
+}
+.pay3{
+	width: 0.43rem;
+	height: 0.43rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.17rem;
+}
+.pay1:checked ~.pay3{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay1{
+	display: none;
+}
+
+/* 联动 */
+.outer{
+	width: 6.24rem;
+	height: 0.85rem;
+	display: flex;
+	justify-content: space-around;
+	float: left;
+	margin-top: 0.25rem;
+	
+}
+.outer select{
+	width: 1.94rem;
+	height: 0.8rem;
+	border: 0.01rem solid #c4c4c4;
+	float: left;
+	appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 0.38rem;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    font-size: 0.22rem;
+	color: #666666;
+}
+.outer2{
+	float: left;
+	position: relative;
+}
+.outer>.outer2:after{
+	content: "";
+	width: 0.2rem;
+	height: 0.13rem;
+	background: url(img/向下.png) no-repeat center;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.34rem;
+	right: 0.3rem;
+	pointer-events: none;
+}
+
+.payment_add{
+	width: 6.24rem;
+	height: 5.3rem;
+}
+.payment_address{
+	width: 6.24rem;
+	height: 0.25rem;
+	float: left;
+	margin-top: 0.38rem;
+}
+.payment_address span{
+	font-size: 0.18rem;
+	color: #333;
+	float: left;
+}
+.payimg{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio:checked ~.payimg{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio{
+	display: none;
+}
+.payimg2{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio2:checked ~.payimg2{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio2{
+	display: none;
+}
+.payimg3{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio3:checked ~.payimg3{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio3{
+	display: none;
+}
+.payimg4{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio4:checked ~.payimg4{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio4{
+	display: none;
+}
+.payimg5{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio5:checked ~.payimg5{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio5{
+	display: none;
+}
+.payimg6{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio6:checked ~.payimg6{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio6{
+	display: none;
+}
+.payimg7{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio7:checked ~.payimg7{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio7{
+	display: none;
+}
+.payimg8{
+	width: 0.23rem;
+	height: 0.23rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.23rem;
+	border: 0.01rem solid #88d549;
+	border-radius: 50%;
+}
+
+.pay_radio8:checked ~.payimg8{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.pay_radio8{
+	display: none;
+}
+
+/* 商品清单 */
+.inventory{
+	width: 6.24rem;
+	height: 4.6rem;
+	background: #fff;
+	margin-left: 0.08rem;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+}
+.invent_p{
+	width: 6.24rem;
+	height: 0.82rem;
+	font-size: 0.2rem;
+	color: #666;
+	line-height: 0.82rem;
+	text-indent: 0.28rem;
+}
+.invent_fp{
+	width: 6.24rem;
+	height: 2.12rem;
+}
+.invent_fp>label{
+	width: 6.24rem;
+	height: 0.82rem;
+}
+.invent_p2{
+	width: 1.88rem;
+	height: 0.78rem;
+	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	text-indent: 0.28rem;
+	line-height: 0.78rem;
+	float: left;
+}
+.invent2{
+	width: 0.45rem;
+	height: 0.45rem;
+	float: right;
+	margin-top: 0.16rem;
+	margin-right: 0.27rem;
+	border: 0.02rem solid #88d549;
+	border-radius: 50%;
+}
+.inventbox:checked ~.invent2{
+	border: 0.01rem solid #fff;
+	background: url(img/勾.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.inventbox{
+	display: none;
+}
+.invent_btm{
+	width: 6.24rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	text-indent: 0.28rem;
+	float: left;
+	color: #666;
+	font-size: 0.2rem;
+	margin-top: 0.3rem;
+}
+.invent_btm>input{
+	width: 4.88rem;
+	height: 0.64rem;
+	margin-left: 0.08rem;
+}
+
+/* 优惠券 */
+.coupon{
+	width: 6.24rem;
+	height: 2.95rem;
+	background:#fff;
+	margin-left: 0.08rem;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+}
+.coupon_p{
+	width: 6.24rem;
+	height: 0.75rem;
+	color: #88d549;
+	font-size: 0.2rem;
+	text-indent: 0.28rem;
+	line-height: 0.75rem;
+}
+.coupon_img{
+	width: 1.87rem;
+	height: 0.75rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-right: 0.04rem;
+}
+.coupon_img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.coupon_img2{
+	width: 5.77rem;
+	height: 0.17rem;
+	float: left;
+	margin-left: 0.22rem;
+}
+.coupon_img2 img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.payable{
+	width: 6.24rem;
+	height: 2.07rem;
+	background:#fff;
+	margin-left: 0.08rem;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+}
+.payable_p{
+	width: 6.24rem;
+	height: 0.89rem;
+  	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	text-indent: 0.28rem;
+	line-height: 0.89rem;
+}
+.payable_p>span{
+	color: #f54d32;
+	float: right;
+	margin-right: 0.75rem;
+}
+.payable_p2{
+	width: 6.24rem;
+	height: 0.26rem;
+	color: #949494;
+	font-size: 0.22rem;
+	text-indent: 0.28rem;
+	margin-top: 0.22rem;
+}
+.payable_p2>span{
+	color: #f54d32;
+	float: right;
+	margin-right: 0.87rem;
+}
+.btn{
+	width: 6.24rem;
+	height: 0.62rem;
+	background: #f54d32;
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 0.62rem;
+	text-align: center;
+	border-radius: 0.03rem 0.03rem 0.03rem 0.03rem;
+	margin-left: 0.08rem;
+	letter-spacing: 0.05rem;
+	cursor: pointer; 
+	
+}
